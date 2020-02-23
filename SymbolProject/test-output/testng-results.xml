@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20827" started-at="2020-02-20T23:16:27Z" finished-at="2020-02-20T23:16:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20827" started-at="2020-02-20T23:16:27Z" finished-at="2020-02-20T23:16:48Z">
+      <class name="TestCases.AutomationTest">
+        <test-method status="PASS" signature="SetupReport()[pri:0, instance:TestCases.AutomationTest@3532ec19]" name="SetupReport" is-config="true" duration-ms="145" started-at="2020-02-20T18:16:27Z" finished-at="2020-02-20T18:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupReport -->
+        <test-method status="PASS" signature="SetupBrowser()[pri:0, instance:TestCases.AutomationTest@3532ec19]" name="SetupBrowser" is-config="true" duration-ms="5750" started-at="2020-02-20T18:16:27Z" finished-at="2020-02-20T18:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupBrowser -->
+        <test-method status="PASS" signature="AutomationToAp()[pri:1, instance:TestCases.AutomationTest@3532ec19]" name="AutomationToAp" duration-ms="3631" started-at="2020-02-20T18:16:33Z" finished-at="2020-02-20T18:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutomationToAp -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:TestCases.AutomationTest@3532ec19]" name="appendReport" is-config="true" duration-ms="649" started-at="2020-02-20T18:16:37Z" finished-at="2020-02-20T18:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AutomationToAp status=SUCCESS method=AutomationTest.AutomationToAp()[pri:1, instance:TestCases.AutomationTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="searchtest()[pri:2, instance:TestCases.AutomationTest@3532ec19]" name="searchtest" duration-ms="9721" started-at="2020-02-20T18:16:37Z" finished-at="2020-02-20T18:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:TestCases.AutomationTest@3532ec19]" name="appendReport" is-config="true" duration-ms="415" started-at="2020-02-20T18:16:47Z" finished-at="2020-02-20T18:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchtest status=SUCCESS method=AutomationTest.searchtest()[pri:2, instance:TestCases.AutomationTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="closesessions()[pri:0, instance:TestCases.AutomationTest@3532ec19]" name="closesessions" is-config="true" duration-ms="647" started-at="2020-02-20T18:16:48Z" finished-at="2020-02-20T18:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesessions -->
+      </class> <!-- TestCases.AutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
